@@ -1,21 +1,21 @@
 #!/bin/bash
 
-#cd /data/NHGRImito/Chipseq_tatyana_2021/TT10_C 
-#cd /data/NHGRImito/Chipseq_tatyana_2021/TT11_C
-#cd /data/NHGRImito/Chipseq_tatyana_2021/TT12_C
-#cd /data/NHGRImito/Chipseq_tatyana_2021/TT13_C
-#cd /data/NHGRImito/Chipseq_tatyana_2021/TT15_C
-#cd /data/NHGRImito/Chipseq_tatyana_2021/TT19_C
-#cd /data/NHGRImito/Chipseq_tatyana_2021/TT20_C
-#cd /data/NHGRImito/Chipseq_tatyana_2021/TT21_C
-#cd /data/NHGRImito/Chipseq_tatyana_2021/TT22_C
-#cd /data/NHGRImito/Chipseq_tatyana_2021/TT23_C
-cd /data/NHGRImito/Chipseq_tatyana_2021/TT24_C
-#cd /data/NHGRImito/Chipseq_tatyana_2021/TT25_C
-#cd /data/NHGRImito/Chipseq_tatyana_2021/TT26_C
-#cd /data/NHGRImito/Chipseq_tatyana_2021/TT7_C
-#cd /data/NHGRImito/Chipseq_tatyana_2021/TT8_C
-#cd /data/NHGRImito/Chipseq_tatyana_2021/TT9_C
+#cd /data/TT10_C 
+#cd /data/TT11_C
+#cd /data/TT12_C
+#cd /data/TT13_C
+#cd /data/TT15_C
+#cd /data/TT19_C
+#cd /data/TT20_C
+#cd /data/TT21_C
+#cd /data/TT22_C
+#cd /data/TT23_C
+#cd /data/TT24_C
+#cd /data/TT25_C
+#cd /data/TT26_C
+#cd /data/TT7_C
+#cd /data/TT8_C
+#cd /data/TT9_C
 
 for f in $(ls *L001_R1_001.fastq.gz)
 do
