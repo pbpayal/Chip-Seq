@@ -1,6 +1,6 @@
 module load deeptools
-#cd /data/NHGRImito/2021_Chip_Tatyana/sam_files/Acetyl/ 
-cd /data/NHGRImito/2021_Chip_Tatyana/sam_files/Lactyl/sorted_filtered_bams/
+#cd /data/sam_files/Acetyl/ 
+cd /data/Lactyl/sorted_filtered_bams/
 for file in $(ls *bam)
 do 
 	bamCoverage -b $file \
