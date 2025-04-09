@@ -4,8 +4,8 @@
 
 module load macs
 
-#cd /data/NHGRImito/Chipseq_tatyana_2021/sam_files/Lactyl
-#cd /data/NHGRImito/Chipseq_tatyana_2021/sam_files/Acetyl
+#cd /data/sam_files/Lactyl
+#cd /data/sam_files/Acetyl
 
 #for file in $(ls *filtered.bam)
 #do
@@ -14,8 +14,8 @@ module load macs
 #done
 #exit
 
-#cd /data/NHGRImito/2021_Chip_Tatyana/sam_files/Acetyl/
-cd /data/NHGRImito/2021_Chip_Tatyana/sam_files/Lactyl/
+#cd /data/sam_files/Acetyl/
+cd /data/sam_files/Lactyl/
 for file in $(ls sorted*)
 do
   	echo "The filename is $file"
