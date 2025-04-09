@@ -1,5 +1,5 @@
-#cd /data/NHGRImito/2021_Chip_Tatyana/sam_files/Acetyl/ 
-cd /data/NHGRImito/2021_Chip_Tatyana/sam_files/Lactyl
+#cd /data/sam_files/Acetyl/ 
+cd /data/sam_files/Lactyl
 module load samtools/1.13
 
 for file in $(ls *filtered.bam)
