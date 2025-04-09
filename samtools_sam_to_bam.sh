@@ -2,7 +2,7 @@
 
 module load samtools
 
-cd /data/NHGRImito/Chipseq_tatyana_2021/merged_fastq/
+cd /data/merged_fastq/
 
 for file in $(ls *sam)
 do
